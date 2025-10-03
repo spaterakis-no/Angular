@@ -16,7 +16,7 @@ export class UserComponent {
   @Input() avatar!: string;
 
   get imageUrl() {
-    return `assets/images/${this.avatar}`;
+    return `assets/users/${this.avatar}`;
   }
 
   onSelectedUser() {}
