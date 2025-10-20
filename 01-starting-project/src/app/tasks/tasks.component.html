@@ -7,7 +7,7 @@
   </header>
 
   @if(isAddingTask) {
-  <app-new-task />
+  <app-new-task (cancelAddTask)="onCancelAddTask()" />
   }
 
   <ul>
